@@ -26,7 +26,7 @@ stdenvNoCC.mkDerivation rec {
     description = "Consolaslxgw";
     homepage = "https://github.com/MichaelC001/Consolas-Nerd-LXGW-Wenkai-Mono";
     license = lib.licenses.gpl3;
-    maintainers = [ lib.maintainers.maidf ];
+    # maintainers = [ lib.maintainers.maidf ];
     platforms = platforms.all;
   };
 }
